@@ -543,35 +543,7 @@
         </div>
     </nav>
 
-    <!-- SIDEBAR UNTUK PEMBINA -->
-    <h1>Halaman Pembina</h1>
-    <div class="burger" onclick="toggleSidebar()">
-        <i class="fa-solid fa-bars"></i>
-    </div>
-    <nav class="sidebar" id="sidebar">
-        <div class="sidebar-logo"><i class="fa-solid fa-school"></i> Ekskul 13</div>
-        <div class="sidebar-nav">
-            <a href="admin_presensi.html"><i class="fa-solid fa-calendar-check"></i> Presensi Siswa</a>
-            <a href="admin_prestasi.html"><i class="fa-solid fa-trophy"></i> Prestasi Siswa</a>
-             <a href="profile_admin.html"><i class="fa-solid fa-id-card"></i> Profil Saya</a>
-            <a href="logout_admin.php" onclick="return confirm('Yakin ingin logout?')"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
-        </div>
-    </nav>
-
-    <!-- SIDEBAR UNTUK PELATIH -->
-    <h1>Halaman Pelatih</h1>
-    <div class="burger" onclick="toggleSidebar()">
-        <i class="fa-solid fa-bars"></i>
-    </div>
-    <nav class="sidebar" id="sidebar">
-        <div class="sidebar-logo"><i class="fa-solid fa-school"></i> Ekskul 13</div>
-        <div class="sidebar-nav">
-            <a href="admin_presensi.html"><i class="fa-solid fa-calendar-check"></i> Presensi Siswa</a>
-            <a href="profile_admin.html"><i class="fa-solid fa-id-card"></i> Profil Saya</a>
-            <a href="logout_admin.php" onclick="return confirm('Yakin ingin logout?')"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
-        </div>
-    </nav>
-
+    
     <div class="card">
          <h3><span class="wave-hand"><i class="fa-solid fa-hand-wave"></i></span> <i class="fa-solid fa-user"></i> Hai, <?php echo htmlspecialchars($username); ?>! anda login sebagai <?php echo htmlspecialchars($role); ?></h3>
          <p>
@@ -700,3 +672,4 @@ function toggleSidebar() {
 </script>
 </body>
 </html>
+
